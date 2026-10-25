@@ -78,9 +78,17 @@ related:
       weight: 100
     - name: categories
       weight: 70
-security:
-  _merge: deep
 sitemap:
   _merge: deep
 minify:
   _merge: deep
+security:
+  _merge: deep
+  exec:
+    allow:
+      - '^(dart-)?sass(-embedded)?$'
+      - '^go$'
+      - '^git$'
+      - '^node$'
+      - '^postcss$'
+      - '^tailwindcss$'

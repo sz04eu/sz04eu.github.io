@@ -8,9 +8,9 @@ tags:
   - Second Brain
   - Markdown
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: "Image credit: [**Unsplash**](https://unsplash.com)"
+status: published
 ---
-
 Create a personal knowledge base and share your knowledge with your peers.
 
 Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.

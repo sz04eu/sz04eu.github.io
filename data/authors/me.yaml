@@ -1,33 +1,31 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
+  display: "Si Zhang"
+  given: "Si"
+  family: "Zhang"
+  pronunciation: ""
+  pronouns: "Tom"
+  alternate: "Tom"
 status:
   icon: "☕️"
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
-affiliations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+role: "Researcher"
+bio: "My research interests include access control, data mining and AI security."
+affiliations: []
 links:
-  - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./blog/index.xml
-    label: Subscribe to my blog via RSS feed
+  - icon: "at-symbol"
+    url: "mailto:sz04eu@gmail.com"
+    label: "E-mail Me"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/sz04eu/"
+postnominals:
+  - "PhD"
+ids:
+  orcid: "0009-0000-3089-8438"
+education:
+  - degree: "PhD in Computer Science"
+    institution: "University of Calgary"
+    start: ""
+    end: ""
+    summary: "Thesis on Mining Domain-Based Policies and Active Learning Frameworks."

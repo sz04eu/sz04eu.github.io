@@ -1,27 +1,38 @@
 ---
-title: 'Home'
-date: 2023-10-24
-type: landing
+title: "Home"
+summary: ""
+date: "2023-10-24"
+type: "landing"
 sections:
-  - block: resume-biography
+  - block: "resume-biography"
     content:
-      # Author slug (data/authors/<slug>.yaml)
-      username: me
+      username: "me"
     design:
       spacing:
-        padding: [0, 0, 0, 0]
+        padding:
+          - 0
+          - 0
+          - 0
+          - 0
       biography:
-        style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
+        style: "text-align: justify; font-size: 0.8em;"
       avatar:
-        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
-  - block: collection
+        size: "medium"
+        shape: "circle"
+    ce: "section-fbb4d3ee"
+    As: "section-42b7bd99"
+  - block: "collection"
     content:
       filters:
         folders:
-          - blog
+          - "blog"
     design:
       spacing:
-        padding: ['3rem', 0, '6rem', 0]
+        padding:
+          - "3rem"
+          - 0
+          - "6rem"
+          - 0
+    ce: "section-3235a895"
+    As: "section-cf13b2a4"
 ---
