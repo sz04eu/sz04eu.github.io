@@ -11,8 +11,10 @@ name:
 status:
   icon: "☕️"
 role: "Researcher"
-bio: "My research interests include access control, data mining and AI security."
-affiliations: []
+bio: "My research interests include Access Control, Data Privacy  and AI Security."
+affiliations:
+  - name: "None"
+    url: ""
 links:
   - icon: "at-symbol"
     url: "mailto:sz04eu@gmail.com"
@@ -29,3 +31,29 @@ education:
     start: ""
     end: ""
     summary: "Thesis on Mining Domain-Based Policies and Active Learning Frameworks."
+interests:
+  - "AI security"
+experience:
+  - role: "Research Assistant"
+    org: "University of Calgary"
+    start: "2018-01"
+    end: "2026-09"
+    summary: ""
+awards:
+  - title: "Best Paper Award"
+    awarder: "ACM CODASPY"
+    date: "2024-06-21"
+    summary: "Mining Domain-Based Policies, Si Zhang and Philip W.L. Fong (University of Calgary, Canada)."
+    icon: "hero/trophy"
+languages:
+  - name: "Chinese (Mandarin)"
+    level: 5
+    label: "Native"
+  - name: "English"
+    level: 4
+    label: "C1"
+skills:
+  - name: "GPU/HPC"
+    items:
+      - label: "CUDA"
+        level: 5
