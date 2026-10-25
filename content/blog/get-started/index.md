@@ -1,6 +1,6 @@
 ---
-title: "How I Used AI to Build and Deploy a Personal Blog on macOS"
-summary: "How I used an AI assistant as a debugging partner to build a HugoBlox blog on an Intel Mac and deploy it to GitHub Pages."
+title: "Build and Deploy a Personal Blog"
+summary: "How I used an AI assistant to build a HugoBlox blog on an Intel Mac and deploy it to GitHub Pages."
 date: 2026-10-25
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com)"

@@ -13,7 +13,7 @@ status:
 role: "Researcher"
 bio: "My research interests include Access Control, Data Privacy  and AI Security."
 affiliations:
-  - name: "None"
+  - name: ""
     url: ""
 links:
   - icon: "at-symbol"
