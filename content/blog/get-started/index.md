@@ -22,8 +22,9 @@ status: published
 ## 1. Introduction
 After I finished my PhD, I felt a strange kind of emptiness. For years, my life was strictly organized around research, deadlines, and writing papers. When all of that ended, I felt a bit lost. I needed a new project to keep me busy and focused.
 
-So, I decided to build a personal blog. I wanted a place to record my life, share my thoughts, and document this new chapter. I also wanted it to be free, and I wanted to have full control over my content. There was just one big problem: I am not a web developer.
-Working with Node.js packages, dealing with submodules, and figuring out GitHub Actions can be very hard. It is easy to waste a whole weekend just trying to start the website server, instead of actually writing blog posts.
+So, I decided to build a personal blog. I wanted a space to explore life, capture everyday moments, and enjoy the journey. I also wanted it to be free, and I wanted to have full control over my content.
+There was just one problem: I am not a web developer.
+Working with Node.js packages, dealing with submodules, and figuring out GitHub Actions can be time-consuming. It is easy to waste a whole weekend just trying to start the website server, instead of actually writing blog posts.
 
 Because of this, I decided to try a different way. This is where AI helped me. I used the AI assistant as a partner to fix problems, such as missing files or security blocks. Most importantly, it helped me understand *why* the error happened.
 
@@ -139,7 +140,7 @@ As soon as I uploaded my updated files to the `main` branch, it started working.
 
 ## 6. What I Learned
 Building this blog gave me a place to write my posts, and it also taught me how to use AI as a helpful partner.
-Looking back, building this website was frustrating at times, but I felt great to finish it. 
+The first step is always the hardest. Building this website was frustrating at times, but finishing it felt amazing.
 
 Using AI for this project completely changed how I deal with technical problems. 
 It is a helpful tool for reading error messages and explaining changes in new software updates. 

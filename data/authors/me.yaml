@@ -10,8 +10,8 @@ name:
   alternate: "Tom"
 status:
   icon: "☕️"
-role: "Researcher"
-bio: "My research interests include Access Control, Data Privacy  and AI Security."
+role: "PhD in Computer Science"
+bio: "A space to explore life, capture small moments, and enjoy the ride."
 affiliations:
   - name: ""
     url: ""
@@ -30,20 +30,20 @@ education:
     institution: "University of Calgary"
     start: ""
     end: ""
-    summary: "Thesis on Mining Domain-Based Policies and Active Learning Frameworks."
+    summary: ""
 interests:
-  - "AI security"
+  - "Learning new things"
 experience:
-  - role: "Research Assistant"
+  - role: "PhD Candidate"
     org: "University of Calgary"
-    start: "2018-01"
-    end: "2026-09"
+    start: ""
+    end: ""
     summary: ""
 awards:
   - title: "Best Paper Award"
     awarder: "ACM CODASPY"
     date: "2024-06-21"
-    summary: "Mining Domain-Based Policies, Si Zhang and Philip W.L. Fong (University of Calgary, Canada)."
+    summary: "Mining Domain-Based Policies"
     icon: "hero/trophy"
 languages:
   - name: "Chinese (Mandarin)"
