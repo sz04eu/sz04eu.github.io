@@ -1,7 +1,7 @@
 ---
 title: "Life After PhD: Notes on Playing the Game"
 summary: Treating life as a game.
-date: 2026-10-31
+date: 2026-11-01
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com)"
 authors:
@@ -11,11 +11,9 @@ tags:
   - Dichotomy of Control
   - Stoicism
   - Blog
-
-status: published
-
+status: draft
+draft: true
 ---
-
 Alan Watts once said that the meaning of life is just to be alive. It is so plain and so obvious, yet everybody rushes around in a panic as if it were necessary to achieve something far beyond themselves.
 
 I left the office in October. For a few days, I really didn't know where to go and what to do. When a long journey ends, the apartment gets quiet, and the calendar becomes strangely empty. I made a cup of coffee, sat by the window, and thought: Okay, now what?
