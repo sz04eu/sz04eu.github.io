@@ -1,7 +1,7 @@
 ---
 title: "Life After PhD: Notes on Playing the Game"
 summary: Treating life as a game.
-date: 2026-10-29
+date: 2026-10-31
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com)"
 authors:
