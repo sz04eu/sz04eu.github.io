@@ -11,8 +11,7 @@ tags:
   - Dichotomy of Control
   - Stoicism
   - Blog
-status: draft
-draft: true
+status: published
 ---
 Alan Watts once said that the meaning of life is just to be alive. It is so plain and so obvious, yet everybody rushes around in a panic as if it were necessary to achieve something far beyond themselves.
 
