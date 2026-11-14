@@ -39,4 +39,3 @@ You didn't come into this world to hand in a perfect final exam. You came here f
 
 ## License
 Released under the [MIT](https://github.com/HugoBlox/kit/blob/main/LICENSE.md) license.
-```
