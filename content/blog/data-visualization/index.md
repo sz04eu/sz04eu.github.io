@@ -1,158 +1,65 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: "📈 How I Visualize My Knowledge Graph"
+summary: "Using Obsidian and data visualization to map out my research."
+date: 2026-11-21
 authors:
   - me
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
-image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com)"
-status: draft
-draft: true
+  - Obsidian
+  - Data Visualization
+  - Knowledge Graph
+status: published
 ---
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
 
-Use popular tools such as Plotly, Mermaid, and data frames.
+<video width="100%" controls autoplay loop muted>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-## Charts
+{{< toc mobile_only=true is_open=true >}}
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+## 1. Introduction
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
+During my PhD journey, I read hundreds of papers, completed many projects, and finally finished my dissertation. But when you have thousands of documents, how do you keep track of how they connect? 
 
-Demo:
+Text is linear. But knowledge is a network. 
 
-{{< chart data="line-chart" >}}
+I have always been a visual thinker. When I looked at my folder, I just saw a huge pile of files. To truly understand their connections, I turned my notes into an interactive knowledge graph. 
 
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+In this post, I want to share a short video of how it works, the logic behind it, and how it helped me see the big picture of my work.
 
-## Diagrams
+## 2. The Graph System
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+As you can see in the video, the graph isn't just a random collection of dots. I created a strict system using color-coded tags. There are four kinds of nodes:
 
-An example **flowchart**:
+- 🟣 **Purple (`#output`)**: The core of my PhD. This includes my dissertation and published papers. It is the largest node because it has the most connections.
+- 🔵 **Blue (`#literature`)**: The research papers, textbooks, and books I read.
+- 🟢 **Green (`#engineering`)**: The tools, systems, and manuals I actually used (like CUDA, XACML, or SELinux).
+- 🟡 **Yellow (`#theory`)**: The math and computer science ideas behind it all: from Graph Theory and Computational Learning Theory to Policy Mining.
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
+## 3. Why Visualize
 
-renders as
+When you look at the graph, you realize that a PhD isn't just a single paper. My thesis sits in the center, pulling in the yellow theory nodes, which then connect to the blue literature nodes. 
 
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
+A larger node means more connections (links going in and out). By looking at this, I could quickly see which ideas were the "pillars" of my research and which papers were dead ends. 
 
-An example **sequence diagram**:
+It also helped me find missing connections. If a literature note had no link to an engineering tool, maybe I missed a chance to apply it. Visualizing my notes didn't just look nice; it actually changed how I thought about my own research.
 
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
+## 4. The Tools I Used
 
-renders as
+To make this work easily, I relied on a few Obsidian tools and a specific workflow for my references:
 
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
+1. **Tags and Properties**: I used specific tags (like `#output` and `#theory`) to sort every note. 
+2. **AI and DBLP for References**: I needed a `Reference.bib` file to manage all the authors and titles. To save time, **I used AI to generate this file**. However, I did not trust it blindly. I used **DBLP** (dblp.uni-trier.de) to verify the correctness of the bibliography. DBLP is a free computer science database that provides open information on major journals and proceedings. AI generated the data quickly, but DBLP made sure it was 100% accurate.
+3. **Graph View & 3D Graph**: These plugins read my tags and draw the network you see in the video. The 3D Graph is very helpful because it hides empty notes, so the picture stays clean.
+4. **Dataview**: This plugin helps me search and sort my notes automatically into tables. 
+5. **Omnisearch**: This helps me find notes instantly by ranking the titles higher than the text.
 
-An example **class diagram**:
+## 5. Conclusion
 
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
+Data visualization isn't just about making pretty pictures. It's about making the invisible visible. 
+A knowledge graph is a map of your own mind. It shows you not just what you know, but how everything connects. 
+If you have too many notes and feel lost, I highly recommend building a graph. You might be surprised by what you find.
 
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-## Data Frames
-
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+## License
+Released under the [MIT](https://github.com/HugoBlox/kit/blob/main/LICENSE.md) license.

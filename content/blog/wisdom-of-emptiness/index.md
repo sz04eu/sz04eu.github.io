@@ -1,5 +1,5 @@
 ---
-title: "Living in the Gap: the Wisdom of Emptiness"
+title: "Living in the Gap: Wisdom of Emptiness"
 summary: Reflections on aging, AI acceleration, and why we need empty space to breathe.
 date: 2026-11-14
 image:
